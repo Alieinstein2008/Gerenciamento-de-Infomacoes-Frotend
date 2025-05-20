@@ -1,0 +1,56 @@
+.select-group {
+  width: fit-content;
+  height: fit-content;
+}
+
+.label {
+  display: block;
+  margin-bottom: .3rem;
+  font-size: .9em;
+  font-weight: bolder;
+  color: #d5d5d5d5;
+  transition: color .3s cubic-bezier(.25, .01, .25, 1) 0s;
+}
+
+.select-row{
+  width: 15vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  background-color: #212121;
+  border-radius: .4rem;
+  padding: 0px 1rem ;
+  border: 2px solid transparent;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+.select {
+  width: 100%;
+  height: 100%;
+  background-color: #212121;
+  border:none;
+  color: #c5c5c5c5;
+  outline: none; 
+  font-size: .9em;
+}
+
+
+
+.select:hover,
+.select:focus,
+.select-group:hover .select {
+  outline: none;
+  border-color: #ffffff;
+}
+
+.select-row:hover, 
+.select-row:focus-within, 
+.select-group:hover .select-row{
+  outline: none;
+  border-color: #fff;
+}
+
+.select-group:hover .label,
+.select:focus {
+  color: #fff;
+}
