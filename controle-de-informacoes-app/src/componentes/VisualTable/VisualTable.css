@@ -1,0 +1,15 @@
+.table_atributos{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #222;
+    
+}
+.nomes_atributos{
+    width: 100%;
+    background-color: #111;
+}
+
+tr:nth-child(even) {
+  background-color: #444;
+}
