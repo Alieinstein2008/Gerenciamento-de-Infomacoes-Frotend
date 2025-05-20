@@ -1,0 +1,42 @@
+.input-group {
+  width: fit-content;
+  height: fit-content;
+}
+
+.label {
+  display: block;
+  margin-bottom: .3rem;
+  font-size: .9em;
+  font-weight: bolder;
+  color: #d5d5d5d5;
+  transition: color .3s cubic-bezier(.25, .01, .25, 1) 0s;
+}
+
+.input {
+  width: 15vw;
+  height: 5vh;
+  background-color: #212121;
+  color: #c5c5c5c5;
+  border-radius: .4rem;
+  padding: 0 1rem;
+  border: 2px solid transparent;
+  font-size: .8em;
+  transition: border-color .3s cubic-bezier(.25, .01, .25, 1) 0s, color .3s cubic-bezier(.25, .01, .25, 1) 0s, background .2s cubic-bezier(.25, .01, .25, 1) 0s;
+}
+
+.input::placeholder{
+  color: #999;
+  font-size: 1em;
+}
+
+.input:hover,
+.input:focus,
+.input-group:hover .input {
+  outline: none;
+  border-color: #ffffff;
+}
+
+.input-group:hover .label,
+.input:focus {
+  color: #fff;
+}
