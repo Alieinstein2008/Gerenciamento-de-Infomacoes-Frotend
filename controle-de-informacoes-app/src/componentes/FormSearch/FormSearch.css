@@ -1,0 +1,80 @@
+/* From Uiverse.io by themrsami */
+.search-group {
+  width: fit-content;
+  height: fit-content;
+
+}
+
+.label {
+  display: block;
+  margin-bottom: .3rem;
+  font-size: .9em;
+  font-weight: bolder;
+  color: #d5d5d5d5;
+  transition: color .3s cubic-bezier(.25, .01, .25, 1) 0s;
+}
+
+.search-row {
+  width: 15vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  background-color: #212121;
+  border-radius: .4rem;
+  padding: 0px 1rem ;
+  border: 2px solid transparent;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+
+}
+
+.search-input {
+  width:12vw;
+  height: 90%;
+  background-color:#212121;
+  border:none;
+  color: #c5c5c5c5;
+  outline: none;
+  font-size: .8em;
+ 
+}
+
+.search-input::placeholder {
+  color: #999;
+  font-size: 1em;
+}
+
+.search-icon {
+  width: 2vw;
+  height:2vh;
+  display: flex;
+  align-items: center;
+  justify-content:   center;
+  padding: .4em;
+  background-color: #333;
+  border-radius: 50%;
+  margin-left: 1%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.search-icon svg {
+  fill: #fff;
+}
+
+.search-icon:hover {
+  background-color: #555;
+}
+
+.search-row:hover, 
+.search-row:focus-within ,
+.search-group:hover .search-row{
+  outline: none;
+  border-color: #fff;
+}
+
+.search-group:hover .label, .search-input:focus{
+  color: #fff;
+}
+
+
