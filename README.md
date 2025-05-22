@@ -21,11 +21,11 @@ Um dos pontos principais além do visual desse projeto é o tratamento de dados 
 
 ### SectionActions:
 #### Área dedicada a botões que desempenham funções:
-![Screenshot da SectionActions](./Previews/SectionActions.jpg)
+![Screenshot da SectionActions](./Previews/SectonActions.jpg)
 
 ### SectionConsult:
 #### Área dedicada a realização de consultas ao banco de dados e retorno de informações:
-![Screenshot da SectionConsult](./Previews/SectonConsult.jpg)
+![Screenshot da SectionConsult](./Previews/SectionConsult.jpg)
 
 ### VisualTable:
 #### Área dedicada a visualização de informações:
