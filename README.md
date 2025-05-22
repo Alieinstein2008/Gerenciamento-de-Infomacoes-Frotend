@@ -9,6 +9,17 @@ Na Primeira versão desse projeto há as seguintes funcionalidades: Adicionar, S
 Além de utilizar a minha própria API, utilizei também para a inserção de dados pessoais de cliente a Api da ViaCEP, para fazer consulta, validação e prenchimento automático de endereços.
 Um dos pontos principais além do visual desse projeto é o tratamento de dados que torna o gerenciamento de informações indubitável, já que o sistema alerta á erros de todos os âmbitos, com uma checagem elegante que visa a diminuição da complexidade ciclomática do código, mesmo sendo um projeto relativamente maior que os comuns.
 
+>[!NOTE]
+Analise o código do componente Jsx Principal que é responsavel por tratar os dados e criar a dinamica entre os demais componentes
+>
+>[Analise o código clicando aqui](controle-de-informacoes-app/src/componentes/Principal/Principal.jsx)
+
+>
+>[!NOTE]
+Analise o código de estilização do componente Jsx Principal
+>
+>[Analise o código clicando aqui](controle-de-informacoes-app/src/componentes/Principal/Principal.css)
+>
 ## Screenshots da Interface
 ### Primeiro Acesso:
 ![Screenshot Inicial da Interface](./Previews/TelaInicial.jpg)
