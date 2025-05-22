@@ -25,7 +25,7 @@ Um dos pontos principais além do visual desse projeto é o tratamento de dados 
 
 ### SectionConsult:
 #### Área dedicada a realização de consultas ao banco de dados e retorno de informações:
-![Screenshot da SectionConsult](./Previews/SectionConsult.jpg)
+![Screenshot da SectionConsult](./Previews/SectonConsult.jpg)
 
 ### VisualTable:
 #### Área dedicada a visualização de informações:
