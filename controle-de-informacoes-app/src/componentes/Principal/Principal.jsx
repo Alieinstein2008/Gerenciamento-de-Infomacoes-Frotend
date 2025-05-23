@@ -500,7 +500,7 @@ export default function Principal() {
                     }
                 } catch (error) {
                     console.log(error);
-                    alert("Falha na conexão com o Servidor");
+                    listaMensagens.push('Servidor Indisponível ')
                 }
             }
         }
