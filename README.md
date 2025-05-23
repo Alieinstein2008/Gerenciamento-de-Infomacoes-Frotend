@@ -9,6 +9,12 @@ Na Primeira versão desse projeto há as seguintes funcionalidades: Adicionar, S
 Além de utilizar a minha própria API, utilizei também para a inserção de dados pessoais de cliente a Api da ViaCEP, para fazer consulta, validação e prenchimento automático de endereços.
 Um dos pontos principais além do visual desse projeto é o tratamento de dados que torna o gerenciamento de informações indubitável, já que o sistema alerta á erros de todos os âmbitos, com uma checagem elegante que visa a diminuição da complexidade ciclomática do código, mesmo sendo um projeto relativamente maior que os comuns.
 
+>[!IMPORTANT]
+Há a possibilidade de acessar, apenas de forma visual, o sistema através do link abaixo.
+>
+>[Acesse clicando aqui](https://gerenciamento-de-informacoes-frotend.netlify.app/)
+
+
 >[!NOTE]
 Analise o código do componente Jsx Principal que é responsavel por tratar os dados e criar a dinamica entre os demais componentes
 >
