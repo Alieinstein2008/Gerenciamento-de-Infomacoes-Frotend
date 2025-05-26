@@ -22,7 +22,7 @@ Analise o código do componente Jsx Principal que é responsavel por tratar os d
 
 >
 >[!NOTE]
-Analise o código de estilização do componente Jsx Principal, onde é especificado o uso de vetores gaficos escalaveis(svg) usados como icones em certas partes do  código, por sua portabilidade e escalabilidade, sempre mantendo a qualidade visual.
+Analise o código de estilização do componente Jsx Principal, onde é especificado o uso de vetores graficos escalaveis(svg) usados como icones em certas partes do  código, por sua portabilidade e escalabilidade.
 >
 >[Analise o código clicando aqui](controle-de-informacoes-app/src/componentes/Principal/Principal.css)
 >
