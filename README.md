@@ -22,7 +22,7 @@ Analise o código do componente Jsx Principal que é responsavel por tratar os d
 
 >
 >[!NOTE]
-Analise o código de estilização do componente Jsx Principal
+Analise o código de estilização do componente Jsx Principal, onde é especificado o uso de vetores gaficos escalaveis(svg) usados como icones em certas partes do  código, por sua portabilidade e escalabilidade, sempre mantendo a qualidade visual.
 >
 >[Analise o código clicando aqui](controle-de-informacoes-app/src/componentes/Principal/Principal.css)
 >
@@ -37,7 +37,7 @@ Analise o código de estilização do componente Jsx Principal
 ![Screenshot da SectionForm](./Previews/SectionForm02.jpg)
 
 ### SectionActions:
-#### Área dedicada a botões que desempenham funções:
+#### Área dedicada a botões que desempenham as seguintes funções:
 ![Screenshot da SectionActions](./Previews/SectonActions.jpg)
 
 ### SectionConsult:
@@ -45,7 +45,7 @@ Analise o código de estilização do componente Jsx Principal
 ![Screenshot da SectionConsult](./Previews/SectionConsult.jpg)
 
 ### VisualTable:
-#### Área dedicada a visualização de informações:
+#### Área dedicada a visualização de informações retornadas:
 ![Screenshot da VisualTable](./Previews/VisualTable.jpg)
 
 
